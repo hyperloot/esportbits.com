@@ -1063,7 +1063,7 @@ section.promo {
   display: flex;
   min-height: 100vh;
   padding-top: 8rem;
-  background-image: url(/promo_section_bg.svg?35e41b0bc58145db478285e420220601);
+  background-image: url(/promo_section_bg.svg?86c9a70f82daea42fdd85bda8d8a9ccc);
   background-position: top right;
   background-repeat: no-repeat;
 }
@@ -1154,19 +1154,19 @@ section.features .features-block .features-item .icon {
 
 .features-block .features-item .icon.blockchain {
   min-height: 4.6rem;
-  background-image: url(/icon_ethereum.svg?539aaad787e6765a065f4e7d9df72fe7)
+  background-image: url(/icon_ethereum.svg?0da69545eea4c4105938b504979c5e05)
 }
 
 .features-block .features-item .icon.marketplace {
-  background-image: url(/icon_wallet.svg?148e7351eba6ea4f7aa0368fc1510cfc)
+  background-image: url(/icon_wallet.svg?9e73be2583a34254fb706658f1136547)
 }
 
 .features-block .features-item .icon.protocol {
-  background-image: url(/icon_console.svg?ca9aa07cd5eab23df4cb22b87bcdef0b)
+  background-image: url(/icon_console.svg?8e0f33cc5f9d4f330a63443bfbde8525)
 }
 
 .features-block .features-item .icon.games {
-  background-image: url(/icon_joystick.svg?760a2cc604a99a973c77a52d583b9915)
+  background-image: url(/icon_joystick.svg?678e3d4b2786bb61df56838d27e1d485)
 }
 
 .features-block .features-item h3 {
@@ -1243,7 +1243,7 @@ section.opportunities {
   color: #fff;
   border-radius: 1.5rem 0 0 1.5rem;
   border-right: 0.35rem solid #fff;
-  background-image: url(/joystick_bg.svg?13ab9a3d4882942b7032b9556d016668);
+  background-image: url(/joystick_bg.svg?dc43fbbaca8df741a444898e8dd684e3);
 }
 
 .developers-block .gamers:after {
@@ -1256,7 +1256,7 @@ section.opportunities {
   width: 7.2rem;
   background-color: #fff;
   border-radius: 50%;
-  background-image: url(/logo.svg?169d415ac58dccceabe9b2b99abab396);
+  background-image: url(/logo.svg?a495bf5adfb92102c17d0ac82a8040c9);
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -1268,7 +1268,7 @@ section.opportunities {
   color: #000;
   border-radius: 0 1.5rem 1.5rem 0;
   border-left: 0.35rem solid #fff;
-  background-image: url(/thinking_bg.svg?45bd6109f873fef5723a5a06529b23c4);
+  background-image: url(/thinking_bg.svg?62e7a1a1b53b3561e5c7150f449bcf77);
 }
 
 .developers-block h4 {
@@ -1298,7 +1298,7 @@ section.get-started:after {
   bottom: -20rem;
   height: 40rem;
   width: 21rem;
-  background-image: url(/roshan_bg.svg?b89587f3bb6ac4f45288ce4ef8d4454a);
+  background-image: url(/roshan_bg.svg?5ca37c2303c82820fb8837d9a47f758b);
   background-repeat: no-repeat;
   pointer-events: none;
 }
@@ -1329,19 +1329,19 @@ section.get-started:after {
 }
 
 .roles-block .item .icon.newbies {
-  background-image: url(/icon_newbie.svg?3de946a6a677ffe6c9ecc804b42004f7);
+  background-image: url(/icon_newbie.svg?51ab7bccda7efd2387cb763f6b39208b);
 }
 
 .roles-block .item .icon.developers {
-  background-image: url(/icon_developer.svg?a75c8fd5a62acd683b8a2337c37f892a);
+  background-image: url(/icon_developer.svg?5544f934d60ecc3601e70c97b29d5dbd);
 }
 
 .roles-block .item .icon.miners {
-  background-image: url(/icon_miners.svg?6ca0f64d19b583e8c64073b7d2654f15);
+  background-image: url(/icon_miners.svg?d0c9640d3056f840624f58cfbcc2a722);
 }
 
 .roles-block .item .icon.foundation {
-  background-image: url(/icon_foundation.svg?a3ac730db3094121f79d2b32f728c799);
+  background-image: url(/icon_foundation.svg?67d30fdfb43743e30c702572a7ab26f5);
 }
 
 .roles-block .item h4 {
@@ -1512,7 +1512,7 @@ section.get-started:after {
     margin: auto 0;
     padding: 0 7.5%;
     background-size: 50%;
-    background-image: url(/promo_section_mobile_bg.svg?05929e9a14c790a631f885bfc498d9d9);
+    background-image: url(/promo_section_mobile_bg.svg?0acd3687978e555e07fbb7e4c819aa19);
   }
 
   section.promo .content {
@@ -1658,7 +1658,7 @@ section.token {
   min-height: 100vh;
   display: flex;
   background-size: 30%;
-  background-image: url(/token_section_bg.svg?99f0296bbcfeb7e7b8441b10e5f8313d);
+  background-image: url(/token_section_bg.svg?ca37bab3da40ed686a635edd1fce6ada);
   background-position: top right;
   background-repeat: no-repeat;
 }
@@ -1834,7 +1834,7 @@ section.faq h2 span{
 }
 
 .spoiler .header .status {
-  background-image: url(/arrow.svg?66c4c1244dd00c4379f7330878a1ba96);
+  background-image: url(/arrow.svg?e1feeed5084a6bc3183f16fa40553653);
   background-size: 50%;
   transform: rotate(180deg);
 }
