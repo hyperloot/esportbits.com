@@ -1,6 +1,5 @@
 .wrapper {
-  width: calc(100vw - 10rem);
-  margin-left: 10rem;
+  width: calc(100vw);
 }
 
 .container {
