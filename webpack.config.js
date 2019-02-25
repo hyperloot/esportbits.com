@@ -123,6 +123,15 @@ const config = {
         postsData,
       },
     }),
+    new HtmlWebpackPlugin({
+      filename: 'posts/index.html',
+      template: 'src/posts.ejs',
+      templateParameters: {
+        lang: 'en',
+        template: 'posts',
+        postsData,
+      },
+    }),
     ...postsData.map(post => new HtmlWebpackPlugin({
       filename: `posts/${post.filename}/index.html`,
       template: 'src/post.ejs',
