@@ -123,7 +123,7 @@ const config = {
         postsData,
       },
     }),
-    new HtmlWebpackPlugin({
+//    new HtmlWebpackPlugin({
       filename: 'posts/index.html',
       template: 'src/posts.ejs',
       templateParameters: {
