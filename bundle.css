@@ -699,7 +699,7 @@ section.token {
   min-height: 100vh;
   display: flex;
   background-size: 30%;
-  background-image: url(/token_section_bg.svg?99f0296bbcfeb7e7b8441b10e5f8313d);
+  background-image: url(/token_section_bg.svg?ca37bab3da40ed686a635edd1fce6ada);
   background-position: top right;
   background-repeat: no-repeat;
 }
@@ -875,7 +875,7 @@ section.faq h2 span{
 }
 
 .spoiler .header .status {
-  background-image: url(/arrow.svg?66c4c1244dd00c4379f7330878a1ba96);
+  background-image: url(/arrow.svg?e1feeed5084a6bc3183f16fa40553653);
   background-size: 50%;
   transform: rotate(180deg);
 }
