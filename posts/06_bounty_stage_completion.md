@@ -1,6 +1,6 @@
 ---
 title: Bounty stage 1 completion
-date: 03.10.2018
+date: 03.11.2018
 image: /img/06.png
 excerpt: Good news everyone! Out bounty was a success! We've attracted signnificant attention to our core products and created a starter community to adopt them!
 author: Nikita Murashov
