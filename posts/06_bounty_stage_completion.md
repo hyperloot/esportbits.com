@@ -36,9 +36,9 @@ A little advice if you don’t:
 4. Put some user pics, these are easy to get.
 
 **Don’t forget to reach out, any of our social networks will do.**
-For everybody else: we’re working on what we call “Bounty 2.0” which is essentially a DAO participation entry round, once we’ve done with moderating and setting out payouts for the 15th of February, we’ll return with participation conditions for it!
+For everybody else: we’re working on what we call **Bounty 2.0** which is essentially a DAO participation entry round, once we’ve done with moderating and setting out payouts for the 15th of February, we’ll return with participation conditions for it!
 
-The best channel to stay up-to-date with us is Discord, so hop in now and keep an eye on #annoucements channel.
+The best channel to stay up-to-date with us is Discord, so hop in now and keep an eye on *#annoucements* channel.
 
 **Join Us:**
 

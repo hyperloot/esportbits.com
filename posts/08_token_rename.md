@@ -30,7 +30,7 @@ To deliver on promises of true zero-transaction network we will need to deploy o
 Our token is also mineable, so to promote this we are looking into CPU-based mining with our new partners (partially met at the WEF, but that’s another story).   
 At the same time, we needed to show our customers, partners and future investors that we thoroughly understand the nature and business objectives of the token.
 
-And that’s where Esportbits comes in. 
+**And that’s where Esportbits comes in.**
 
 Our main focus right now are esports titles and actors. 
 We want our token and brand to be a reflection of it. 

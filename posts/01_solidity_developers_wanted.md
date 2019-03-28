@@ -1,11 +1,11 @@
 ---
 title: Solidity developers wanted!
 date: 24.06.2018
-image: /img/20_post_dao2.png
+image: /img/17_post_vasilisa.png
 excerpt: At the heart of every great product is one and one thing only — great people. HyperLoot aims to create a unique organizational structure (similar to Valve): a decentralized development team.
-author: Alex Vasilenka
+author: Valery Vaskabovich
 tags:
-  - Development
+  - Team
 ---
 
 At the heart of every great product is one and one thing only — great people. HyperLoot aims to create a unique organizational structure (similar to Valve): a decentralized development team.

@@ -49,15 +49,19 @@ However, the most interesting way to earn some tokens is to help us develop Hype
 Even if you’re not a developer -there’s plenty of tasks to take care of. Join GitHub, Discord or Telegram, get notified of non-developer challenges, help us deliver and surely get rewards as well. Be a part of a new gaming market, we’re already off!
 
 **Token**
+
 https://etherscan.io/token/0xa809d363a66c576a2a814cdbfefc107c600a55f0?a=0xe84fd16bdf58f2d890046a7b20cf0a10104610da
 
 **Mining token**
+
 https://etherscan.io/token/0x024008f43b1956e111cdb88a76b517cb4b241c7e
 
 **Managment contract**
+
 https://etherscan.io/address/0xe84fd16bdf58f2d890046a7b20cf0a10104610da
 
 **1st mining transaction**
+
 https://etherscan.io/tx/0x200a1e4329910d9be94ce06fd1067d2c5df37b728e68e216e48b28806bb44d1e
 
 **Join Us:**

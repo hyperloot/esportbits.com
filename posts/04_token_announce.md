@@ -43,15 +43,19 @@ Join the team, choose the tasks, complete them and get remuneration in tokens. O
 Perhaps you are not a developer, newer mind. Join our community, our group in Discord or Telegram, participate in competitions, help the project and get HTL tokens for that or — the opportunity to become a developer.
 
 **Token**
+
 https://etherscan.io/token/0xa809d363a66c576a2a814cdbfefc107c600a55f0?a=0xe84fd16bdf58f2d890046a7b20cf0a10104610da
 
 **Mining token**
+
 https://etherscan.io/token/0x024008f43b1956e111cdb88a76b517cb4b241c7e
 
 **Managment contract**
+
 https://etherscan.io/address/0xe84fd16bdf58f2d890046a7b20cf0a10104610da
 
 **1st mining transaction**
+
 https://etherscan.io/tx/0x200a1e4329910d9be94ce06fd1067d2c5df37b728e68e216e48b28806bb44d1e
 
 **Join Us:**
