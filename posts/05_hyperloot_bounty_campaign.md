@@ -16,26 +16,25 @@ The bounty campaign starts on **September 15, 2018** and ends on **October 30, 2
 
 **Here’s how you can join the bounty campaign and earn HLT tokens:**
 
-
-##Airdrop##
+**Airdrop**
 
 Airdrop is a hassle-free way to spread the word about Hyperloot and be rewarded for several seconds of your time.
 
-##How to participate in Airdrop##
+**How to participate in Airdrop**
 
 1. Go to HyperLoot AirDrop Bot and type in “start”, our bot will guide you
 2. Complete as many Bounty challenges as you can. The more items you check of the list the more HLT tokens you earn. Maximum bounty per person is 5,209 HLT or $1,302 provided all 12 challenges are successfully completed
 3. Submit your Ethereum wallet address and other details, tokens will be distributed on February 15, 2019 with no vesting
 4. Terms are limited to first 30,000 Telegram users, hurry up as the Bounty will run out soon
 
-##Minimum requirements##
+**Minimum requirements**
 
 * Discord Account
 * Twitter Account
 * Telegram Account
 * ETH address
 
-##List of challenges##
+**List of challenges**
 
 1. Join HyperLoot on Discord channel
 2. Subscribe to Hyperloot on Reddit
@@ -58,11 +57,11 @@ Airdrop is a hassle-free way to spread the word about Hyperloot and be rewarded 
 
 12. We give $1000 for first 50 games with integrated HyperLoot SDK
 
-##Want to review the code or see the team?##
+**Want to review the code or see the team?**
 
 We welcome you to join the GitHub. Most of our code is open source. You can see who is doing what and check the progress. You can also join our team and earn some serious HLT tokens if you are a good developer :)
 
-##Chat with HyperLoot AirDrop Bot now!##
+**Chat with HyperLoot AirDrop Bot now!**
 
 https://t.me/HyperlootAirdropBot
 

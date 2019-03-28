@@ -12,7 +12,7 @@ We are the Hyperloot. Our aim is to unify game universes and create an easy-to-a
 
 Our protocol’s main ambition is to make digital assets as good as real ones and provide free trade environment for them.
 
-####What is the HLT token and why do developers need it?####
+**What is the HLT token and why do developers need it?**
 
 It’s a cryptocurrency token based on the most available and expanded blockchain — Ethereum ERC20. It resolves quite a number of everyday issues.
 
@@ -26,7 +26,7 @@ HLT is the lifeblood of the project. It lets the community evaluate games and it
 
 It is the currency we pay for the protocol development in, it is used to pay the fees, reward people for completing challenges and performing other daily activities.
 
-###Why does the protocol need the token?###
+**Why does the protocol need the token?**
 
 Tokens are different, usually any company going through an ICO will sell most of the tokens in the beginning to cover the development costs and raise the token price. We are not in this business and will not pre-mine instead going somewhat Bitcoin-y and mining along the product development itself.
 
@@ -38,7 +38,7 @@ Hyperloot is striving to be a DAO with freely mined tokens providing equal right
 
 Hyperloot is not withholding tokens for the team, it does not freeze any amount somewhere, does not allocate tokens for the development. At the smart contract release there is exactly 0 tokens so that everyone is equal in their right to them.
 
-#How do I receive tokens?#
+**How do I receive tokens?**
 
 Of course you can mine some, but you go to hold some nodes. (You can read about them in the previous materials and we’ll release a separate article.)
 
