@@ -1,8 +1,8 @@
 ---
-title: HyperLoot Bounty Campaign: How to join the community and get some shiny tokens
+title: How to join the community and get some shiny tokens
 date: 15.09.2018
 image: /img/17_post_vasilisa.png
-excerpt: Good news everyone!
+excerpt: The bounty campaign starts on September 15, 2018 and ends on October 30, 2018. The rewards will be given to the first 30,000 users who joined our telegram bot so hurry up, the countdown has started!
 author: Nikita Murashov
 tags:
   - Bounty
