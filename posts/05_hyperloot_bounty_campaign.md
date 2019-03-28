@@ -2,7 +2,7 @@
 title: HyperLoot Bounty Campaign: How to join the community and get some shiny tokens
 date: 15.09.2018
 image: /img/17_post_vasilisa.png
-excerpt: Off with the big news, everyone. Hyperloot is launching its bounty campaign. In case you lived under a crypto rock, just a few brief points about this project. 
+excerpt: Good news everyone!
 author: Nikita Murashov
 tags:
   - Bounty
