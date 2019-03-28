@@ -1,11 +1,11 @@
 ---
 title: New token name, who dat?
-image: /img/20_post_dao2.png
+image: /img/08.png
 excerpt: You might have noticed we recently rebranded the token into Esportbits. It’s time to talk a bit about that.
 date: 28.03.2019
 author: Nikita Murashov
 tags:
-  - Token
+  - development
 ---
 
 You might have noticed we recently rebranded the token into Esportbits. It’s time to talk a bit about that.

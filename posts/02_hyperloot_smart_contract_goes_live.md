@@ -1,11 +1,11 @@
 ---
 title: Hyperloot smart contract goes live 7th July
 date: 06.07.2018
-image: /img/17_post_vasilisa.png
+image: /img/02.png
 excerpt: We’re excited to launch out smart contract infrastructure aimed at releasing rewards and mining tokens!
 author: Valery Vaskabovich
 tags:
-  - Token
+  - development
 ---
 
 We’re excited to launch out smart contract infrastructure aimed at releasing rewards and mining tokens!

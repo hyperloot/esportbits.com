@@ -1,11 +1,11 @@
 ---
 title: How to join the community and get some shiny tokens
 date: 15.09.2018
-image: /img/17_post_vasilisa.png
+image: /img/05.png
 excerpt: The bounty campaign starts on September 15, 2018 and ends on October 30, 2018. The rewards will be given to the first 30,000 users who joined our telegram bot so hurry up, the countdown has started!
 author: Nikita Murashov
 tags:
-  - Bounty
+  - bounty
 ---
 
 Off with the big news, everyone. Hyperloot is launching its bounty campaign. In case you lived under a crypto rock, just a few brief points about this project. Hyperloot integrates gaming with blockchain to introduce a new concept of ownership in gaming, let users tokenize their virtual assets and trade them freely. We’ve already deployed a wallet MVP and launched a viable tokenization prototype. New developments are underway, and we need your support and proactive participation to grow and expand our community and to build a starting market for our native HLT token.

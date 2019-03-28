@@ -1,11 +1,11 @@
 ---
 title: Bounty payouts completion
-image: /img/20_post_dao2.png
+image: /img/07.png
 excerpt: We're happy to announce we've dealt with all the payouts and resolved every bounty-related question we received. 
 date: 25.03.2019
 author: Nikita Murashov
 tags:
-  - Token
+  - bounty
 ---
 
 We're happy to announce we've dealt with all the payouts and resolved every bounty-related question we received. 
