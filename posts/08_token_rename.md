@@ -1,5 +1,5 @@
 ---
-title: New token name, who dat?
+title: New token name, why?
 image: /img/08.png
 excerpt: You might have noticed we recently rebranded the token into Esportbits. It’s time to talk a bit about that.
 date: 28.03.2019
@@ -37,11 +37,12 @@ We want our token and brand to be a reflection of it.
 There’s a lot going on this market, and bits are representing the items we are going to trade within our stack of product. 
 We felt that bits are a good name since we are not going to be trading exclusively in-game items, and some of them might be separated into multiple bits for game design or product purposes. 
 Esports is obviously the best business opportunity out there, so the naming comes together quite easily.
-We can’t change everything at the same time, but for now the token ticker will remain the same. 
+We can’t change everything at the same time and for now the token ticker will remain the same. The price, erxchanges listed and price also remain the same. 
+Token is now represented on a separate website with a new name: https://esportbits.com/
 
 There might be a few changes to the token design down the road, but for now all things remain the same. 
 The token aims and features you can find in our FAQ remain the same. 
-Our team sees a big future for Hyperlot, Lootmart and Esportbits. 
+Our team sees a big future for Hyperloot, Lootmart and Esportbits. 
 There’s a number of partnerships we are working on and we’ve recently entered a second exchange with plans to join CoinMarketCap soon. 
 If you have any questions, we are always open to answer them at our discord channel here: https://discord.gg/qEH8PHk 
 
