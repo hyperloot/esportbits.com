@@ -1,14 +1,13 @@
 ---
-title: New token name, why?
+title: Token pricing, what is going on?
 image: /img/09.png
-excerpt: You might have noticed we recently rebranded the token into Esportbits. It’s time to talk a bit about that.
+excerpt: A lot has been going on inside Hyperloot and Esporbits lately. All of that is, of course, reflected on the token itself.
 date: 28.03.2019
 author: Nikita Murashov
 tags:
   - token
 ---
 
-Token pricing, what is going on?
 A lot has been going on inside Hyperloot and Esporbits lately: we’ve finished development on the wallet, are coming to an end on QA for our marketplace, paid out bounty and acquired new partners. 
 All of that is, of course, reflected on the token itself.
 
