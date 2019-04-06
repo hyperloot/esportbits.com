@@ -21,18 +21,18 @@ section.posts .posts-tags {
 
 section.posts .posts-tags ul {
   display: flex;
-  flex-basis: 90%;
   flex-wrap: wrap;
   padding-left: 0;
   margin: 0;
   list-style: none;
 }
 
-section.posts .posts-tags ul li:not(:last-of-type) {
+section.posts .posts-tags ul li {
   margin-right: 0.6rem;
 }
 
 section.posts .posts-tags.rectangular-tags ul li a {
+  box-sizing: border-box;
   padding: 0.6rem 1.2rem;
   font-family: var(--font-family-regular-medium);
   font-size: 1.8rem;
@@ -72,16 +72,12 @@ section.posts .load-more {
   border-bottom: 1px dotted #e5e8ed;
 }
 
-section#posts.posts .post-preview:not(:target){
+section#posts.posts:target .post-preview.active {
+  display: flex;
+}
+
+section#posts.posts .post-preview:not(.active){
   display: none;
-}
-
-section#posts.posts.filter-is-inactive .post-preview {
-  display: flex;
-}
-
-section#posts.posts:target .post-preview {
-  display: flex;
 }
 
 .post-preview {

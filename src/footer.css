@@ -57,11 +57,20 @@
   text-transform: uppercase;
 }
 
+.footer .docs {
+  display: flex;
+  align-items: center;
+}
+
+.footer .docs span {
+  margin: 0 1.2rem;
+}
+
 .footer a:before {
   content: '';
   width: 2.5rem;
   height: 3rem;
-  margin-right: 3.2rem;
+  margin-right: 1.2rem;
   background-image: url(assets/icon_terms.png);
   background-size: contain;
   background-position: center;
