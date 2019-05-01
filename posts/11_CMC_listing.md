@@ -19,7 +19,7 @@ As a team and a company we are constantly working on making our token better and
 
 With the token listed on Coinmarketcap it is now easier than ever to track Hyperloot capitalization, trading volume, price per exchange and other perfomance metrics. 
 
-You can find this information here: https://coinmarketcap.com/currencies/hyperloot/
+You can find this information here: https://coinmarketcap.com/currencies/esportbits/
 
 You can purchase HLT here:
 https://www.c2cx.com/in/trade/USDT_HLT
