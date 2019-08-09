@@ -1,7 +1,7 @@
 ---
-title: Coinmarket cap listing announcement
+title: First gaming wallet released!
 image: /img/12.png
-excerpt: We're officially listed on coinmarketcap.
+excerpt: Our online inventory for your next adventure is available on AppStore.
 date: 05.04.2019
 author: Nikita Murashov
 tags:
