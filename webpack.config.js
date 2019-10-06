@@ -13,6 +13,12 @@ const IS_PROD = process.env.NODE_ENV === 'production';
 
 // POST GENERATION SECTION
 const posts = fs.readdirSync('./posts/');
+const allTagsList = posts
+  .map(post => ({
+    ...fm(fs.readFileSync(`./posts/${post}`, 'utf8')).attributes.tags,
+  }))
+  .map(tag => tag[0]);
+const uniqueTags = [...new Set(allTagsList)];
 const postsData = posts
   .map(post => ({
     ...fm(fs.readFileSync(`./posts/${post}`, 'utf8')),
@@ -103,6 +109,7 @@ const config = {
         lang: 'en',
         template: 'about',
         postsData,
+        uniqueTags,
       },
     }),
     new HtmlWebpackPlugin({
@@ -112,6 +119,7 @@ const config = {
         lang: 'en',
         template: 'token',
         postsData,
+        uniqueTags,
       },
     }),
     new HtmlWebpackPlugin({
@@ -121,6 +129,7 @@ const config = {
         lang: 'en',
         template: 'solutions',
         postsData,
+        uniqueTags,
       },
     }),
     new HtmlWebpackPlugin({
@@ -130,6 +139,7 @@ const config = {
         lang: 'en',
         template: 'posts',
         postsData,
+        uniqueTags,
       },
     }),
     ...postsData.map(post => new HtmlWebpackPlugin({

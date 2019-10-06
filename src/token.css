@@ -35,7 +35,7 @@ section.token h1 span {
 section.token .info {
   display: flex;
   flex-wrap: wrap;
-  jutify-content: space-between;
+  justify-content: space-between;
   font-family: 'Gilroy';
   font-size: 1.4rem;
   color: #55606c;
@@ -153,7 +153,7 @@ section.faq h2 span{
 
 .spoiler .header {
   position: relative;
-  z-index: 10;
+  z-index: 4;
   display: flex;
   align-items: center;
   justify-content: space-between;

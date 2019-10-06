@@ -31,16 +31,12 @@
   fill: var(--dark-grey-color);
 }
 
-section#posts.posts .post-preview:not(:target){
+section#posts.posts:target .post-preview.active {
+  display: flex;
+}
+
+section#posts.posts .post-preview:not(.active){
   display: none;
-}
-
-section#posts.posts.filter-is-inactive .post-preview {
-  display: flex;
-}
-
-section#posts.posts:target .post-preview {
-  display: flex;
 }
 
 section.post {
@@ -139,6 +135,10 @@ section.post .post-tags.rectangular-tags li {
   color: var(--white-color);
   background-color: #bbbfc4;
   border-radius: 0.5rem;
+}
+
+section.posts .posts-tags .tag-invisible {
+  display: none;
 }
 
 section.post .post-footer .social {
