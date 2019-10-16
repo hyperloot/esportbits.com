@@ -1,145 +1,277 @@
 <!DOCTYPE html>
 <html lang="<%= lang %>">
   <head>
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#fff">
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#fff" />
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125551451-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-125551451-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'UA-125551451-1');
+      gtag("config", "UA-125551451-1");
     </script>
 
-    <meta property = "og:title" content = "Esportbits" />
-    <meta property = "og:description" content = "Esportbits token allows for creation, price discovery of illiquid digital assets and cross asset exchange with zero transaction fee." />
-    <meta property = "og:type" content = "website" />
-    <meta property = "og:url" content = "https://esportbits.com" />
-    <meta property = "og:image" content = "https://esportbits.com/Hyperchan.png" />
+    <meta property="og:title" content="Esportbits" />
+    <meta
+      property="og:description"
+      content="Esportbits token allows for creation, price discovery of illiquid digital assets and cross asset exchange with zero transaction fee."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://esportbits.com" />
+    <meta property="og:image" content="https://esportbits.com/Hyperchan.png" />
 
     <title>Esportbits</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
-    <%= require('./_sidebar.html') %>
-
-    <div class="wrapper">
-
-      <%= require('./_banner.html') %>
-
-      <%
-        var templates = {
-          about: require('./about.html'),
-          token: require('./token.html'),
-          solutions: require('./solutions.html')
-        };
-
-        // 'template' we define in webpack
-
-        print(templates[template]);
-      %>
-
-      <% if(template === 'about'){ %>
-
-        <section id="posts" class="posts">
-
-          <div class="container">
-
-            <div class="posts-heading">
-              <h2><a href="/posts">Blog</a></h2>
-            </div>
-
-            <div class="posts-tags rectangular-tags">
-              <ul id="posts-tag">
-                <li><a id="resetFilter" class="tag" href="#posts">All posts</a>
-              <% uniqueTags.forEach(function(tag, item){ %>
-                <li><a id="<%= tag %>" class="tag" href="#<%= tag %>"><%= tag %></a></li>
-              <%})%>
+      <section class="hero">
+        <header class="header">
+          <div class="container_flex container_size_default container_flex_align_center container_flex_justify_between">
+            <a href="/" class="logo">Lootmart</a>
+    
+            <div class="controls">
+              <ul class="lang-controls">
+                <li><a href="#">ES</a></li>
+                <li><a href="#">RU</a></li>
+                <li><a href="#">EN</a></li>
               </ul>
+    
+              <div class="menu">
+                <a href="#" class="menu__icon"></a>
+                <!-- <nav>
+                  <a href="#">menu item 1</a>
+                  <a href="#">menu item 2</a>
+                  <a href="#">menu item 3</a>
+                  <a href="#">menu item 4</a>
+                </nav> -->
+              </div>
             </div>
-
-            <div class="post-list">
-              <% postsData.forEach(function(post, item){ %>
-                <div id="<%= post.attributes.tags %>" class="post-preview <%= post.attributes.tags %> active">
-                  <div class="image">
-                    <a href="/posts/<%= post.filename %>">
-                      <img src="<%= post.attributes.image %>" alt="post-preview">
-                    </a>
-                  </div>
-                  <div class="preview">
-                    <div class="preview-header">
-                      <div class="date"><%= post.attributes.date %></div>
-                    </div>
-                    <div class="preview-body">
-                      <a href="/posts/<%= post.filename %>">
-                        <h3><%= post.attributes.title %></h3>
-                      </a>
-                      <p><%= post.attributes.excerpt %></p>
-                    </div>
-                    <div class="preview-footer preview-footer-short">
-                      <div class="author">
-                        by <span><%= post.attributes.author %></span>
-                      </div>
-                      <div class="discuss">
-                        <a href="https://discord.gg/My3PfqK" class="button-link section-link">Discuss</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              <% }); %>
-            </div>
-
           </div>
-
+        </header>
+        <div class="content">
+          <div class="container_flex container_flex_align_center container_flex_justify_between">
+            <div class="content-card content-card_width_default content-card_header_card">
+              <div class="content-card__content">
+                <h1>Player 2 player relays for next-level gaming</h1>
+                <p>Lootmart wallet is a community-driven network for deal competitiveonline gaming. We make infrastructure easy, pings low and communities happy.</p>
+      
+                <a href="#" class="app-store-download">
+                  <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35.676px" height="35.676px" viewBox="0 0 35.676 35.676" style="enable-background:new 0 0 35.676 35.676;" xml:space="preserve">
+                    <path d="M32.295,26.202c-0.096,0.271-0.189,0.562-0.296,0.848c-0.886,2.399-2.231,4.529-3.863,6.481
+                      c-0.315,0.38-0.682,0.724-1.061,1.043c-0.749,0.634-1.611,1.017-2.608,1.052c-0.749,0.024-1.468-0.112-2.161-0.394
+                      c-0.502-0.205-0.996-0.434-1.505-0.619c-1.652-0.6-3.295-0.521-4.92,0.121c-0.586,0.232-1.164,0.488-1.761,0.689
+                      c-0.692,0.232-1.41,0.326-2.141,0.188c-0.638-0.119-1.196-0.416-1.714-0.799c-0.643-0.476-1.183-1.056-1.688-1.67
+                      c-2.391-2.916-3.996-6.213-4.771-9.906c-0.334-1.588-0.494-3.189-0.396-4.812c0.115-1.946,0.567-3.799,1.607-5.469
+                      c1.305-2.099,3.146-3.474,5.568-4.041c1.457-0.343,2.874-0.203,4.263,0.332c0.731,0.28,1.464,0.557,2.198,0.832
+                      c0.676,0.254,1.349,0.254,2.026-0.005c0.749-0.286,1.499-0.571,2.251-0.85c0.771-0.281,1.555-0.511,2.373-0.576
+                      c1.224-0.099,2.418,0.06,3.58,0.449c1.647,0.551,2.987,1.526,3.999,2.946c0.027,0.039,0.057,0.082,0.077,0.113
+                      c-2.552,1.779-4.005,4.129-3.794,7.311C27.771,22.65,29.485,24.804,32.295,26.202z M17.98,8.253
+                      c0.753,0.02,1.477-0.125,2.174-0.402c3.179-1.262,4.841-4.625,4.791-7.197C24.941,0.447,24.927,0.24,24.918,0
+                      c-0.327,0.049-0.625,0.072-0.911,0.144c-2.321,0.569-4.107,1.864-5.281,3.961c-0.687,1.228-1.069,2.532-0.952,3.957
+                      C17.782,8.213,17.837,8.251,17.98,8.253z"/>
+                  </svg>
+      
+                  <span class="app-store-download__text">
+                    <span class="app-store-download__text-download">Download on the</span>
+                    <span>App store</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="solutions-section">
+        <div class="container container_size_default">
+          <div class="token-price">
+            <div class="token-price__title">
+              Token price:
+            </div>
+    
+            <div class="token-price__value">
+              $0.247
+            </div>
+    
+            <div class="token-price__diff token-price__diff_negative">
+              -5.64%
+            </div>
+          </div>
+    
+          <div class="solutions">
+            <h2>
+              <span class="text_color_accent">DAG powered</span></br> solutions for:
+            </h2>
+    
+            <div class="solution-items">
+              <div class="item">
+                <div class="business-model">
+                  IaaS
+                </div>
+    
+                <ul class="features">
+                  <li>P2P unility network</li>
+                  <li>Service monetization</li>
+                  <li>Mining</li>
+                </ul>
+    
+                <a href="#" class="button button_bordered button_hover_default">Download</a>
+                <a href="#" class="button">Learn more</a>
+              </div>
+    
+              <div class="item">
+                <div class="business-model">
+                  SaaS
+                </div>
+    
+                <ul class="features">
+                  <li>Auction</li>
+                  <li>Esports services</li>
+                  <li>Fantasy / Tournaments</li>
+                </ul>
+    
+                <a href="#" class="button button_bordered button_hover_default">Download</a>
+                <a href="#" class="button">Learn more</a>
+              </div>
+    
+            </div>
+    
+            <div class="answer what_we_do">
+              What we do?
+            </div>
+    
+            <div class="answer answer_divider_short what_have_we_done">
+              What have we done?
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="projects">
+        <section class="lootmart">
+          <div class="container container_size_default projects-title">
+            <h2>Become triggered</h2>
+          </div>
+      
+          <div class="project">
+            <div class="project-description project-description_left">
+              <div class="dots dots_align_left"></div>
+              <div class="card">
+                <div class="number">01.</div>
+                <div class="divider"></div>
+                <h3 class="title">Lootmart</h3>
+                <p class="description">AI-driven engagement solution that interprets consumer data and provides guaranteed price discovery in otherwise illiquid digital markets</p>
+              </div>
+            </div>
+    
+            <div class="project-pictures lootmart-pictures">
+              <img src="./landing-assets/lootmart-cards.png" alt="lootmart cards">
+            </div>
+          </div>
         </section>
+      
+        <section class="pickgg">
+          <div class="project">
+            <div class="project-pictures pickgg-pictures">
+              <img src="./landing-assets/pick-gg-cards.png" alt="pickgg cards">
+            </div>
+    
+            <div class="project-description project-description_right">
+              <div class="dots dots_align_right"></div>
+              <div class="card">
+                <div class="number">02.</div>
+                <div class="divider"></div>
+                <h3 class="title">Pick.gg</h3>
+                <p class="description">We turn your everyday stream into an exciting competitive event where you get exposure to new audience</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <section class="sdk">
+          <div class="project">
+            <div class="project-description project-description_left">
+              <div class="dots dots_align_left"></div>
+              <div class="card">
+                <div class="number">03.</div>
+                <div class="divider"></div>
+                <h3 class="title">SDK</h3>
+                <p class="description">We allowing developers to convert their in-game/in-app assets into tradable tokens and enabling in-app trading using blockchain technology</p>
+              </div>
+            </div>
+    
+            <div class="project-pictures lootmart-pictures">
+              <img src="./landing-assets/sdk-cards.png" alt="SDK cards">
+            </div>
+          </div>
+        </section>
+      </section>
+    
+      <section class="partners">
+        <div class="answer who_we_helped answer_divider_short">
+          Who we helped?
+        </div>
+    
+        <div class="answer contact_us answer_divider_short">
+          How to contact us?
+        </div>
 
-      <%}%>
-
-      <%= require('./_footer.html') %>
-
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
-
-    <script>
-      const postsTags = document.getElementById('posts-tag');
-
-      postsTags.addEventListener('click', (e) => {
-        const posts = document.querySelectorAll('.post-preview');
-        const tags = document.querySelectorAll('.tag');
-        
-        const tag = e.target;
-
-        //reset previous tag active class and add active class for the choosed tag
-        tags.forEach(element => element.classList.remove('active'));
-        tag.classList.add('active');
-
-        if(tag.id === 'resetFilter'){
-          posts.forEach(post => post.classList.add('active'));
-          return;
-        }
-
-        posts.forEach(post => post.classList.remove('active'));
-
-        posts.forEach(post => {
-          if(post.classList.contains(tag.id)){
-            post.classList.add('active')
-          }
-        });
-      })
-          
-      function setPostDate(){
-        const dates = document.querySelectorAll('.date');
-        dates.forEach(element => {
-          const postDate = element.innerHTML.split('.');
-          element.innerHTML = moment(postDate, 'D-M-Y').fromNow();
-        })
-      }
-
-      setPostDate();
-    </script>
-
+        <div class="answer contact_us_mobile">
+          How to contact us?
+        </div>
+    
+        <div class="container container_size_default">
+          <h2>Already <span class="text_color_accent">reached next level</span> with:</h2>
+        </div>
+    
+        <div class="partners-pictures">
+          <img src="./landing-assets/partners/hyperloot.svg" alt="hyperloot logo">
+          <img src="./landing-assets/partners/poa.svg" alt="poa logo">
+          <img src="./landing-assets/partners/ultraplay.svg" alt="ultraplay logo">
+          <img src="./landing-assets/partners/trust.svg" alt="trust logo">
+    
+          <img src="./landing-assets/partners/opensea.svg" alt="opensea logo">
+          <img src="./landing-assets/partners/abios.svg" alt="abios logo">
+          <img src="./landing-assets/partners/wef_logo.svg" alt="wef logo">
+          <img src="./landing-assets/partners/byteball.svg" alt="byteball logo">
+        </div>
+      </section>
+    
+      <section class="contacts">
+        <div class="contacts-info">
+          <h2 class="contacts-title">Hit us up, <br> we are around!</h2>
+    
+          <div class="contacts-links">
+            <a href="#">
+              <svg width="38" height="33" viewBox="0 0 38 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M35.1192 2.06143L34.9935 1.74294C34.9898 1.7338 34.9828 1.72625 34.9737 1.72218L34.6618 1.58062C32.0939 0.415048 28.4719 0.127455 25.2672 0H21.6578C21.617 0 21.6046 0.0550354 21.6412 0.0726188L29.0554 3.62477C29.0972 3.64473 29.0741 3.70692 29.0291 3.6952C25.6947 2.82497 22.3263 2.38449 19 2.38449C15.6845 2.38449 12.327 2.82229 9.00281 3.68695C8.95758 3.69868 8.93462 3.63579 8.97706 3.61622L16.6513 0.0730159C16.6885 0.0558299 16.6764 0.000198573 16.6353 0.000198573H12.7329C9.52837 0.127653 5.9061 0.415247 3.33833 1.58082L3.02639 1.72238C3.01735 1.72645 3.01019 1.7339 3.00661 1.74314L2.88096 2.06163C0.25305 8.71611 -0.493691 20.0131 0.302654 27.0903L0.344405 27.4614L0.639841 27.6904C4.74513 30.8717 10.2345 32.5074 13.6877 32.9414L14.1343 32.9975C14.2794 33.0158 14.4181 32.9319 14.4694 32.7951L16.717 26.7941C16.787 26.6071 16.6677 26.4028 16.4703 26.3718L15.7806 26.2636C13.3757 25.886 9.96834 24.885 7.08884 22.2753C7.0274 22.2196 7.08665 22.1194 7.16438 22.1482C7.39839 22.2352 7.65645 22.3359 7.92216 22.4396C8.57327 22.6938 9.24665 22.9567 9.68603 23.061C12.774 23.7947 15.9054 24.1669 18.9998 24.1669V24.1118H19.0063L19.0067 24.1669C22.0948 24.1669 25.2261 23.7948 28.3138 23.061C28.7534 22.9566 29.4268 22.6938 30.078 22.4395C30.3435 22.3358 30.6015 22.2351 30.8354 22.1482C30.9131 22.1194 30.9723 22.2197 30.9109 22.2753C28.041 24.8735 24.6294 25.8719 22.2191 26.2492L21.5296 26.357C21.3322 26.3879 21.2127 26.592 21.2827 26.779L23.5307 32.7948C23.5819 32.9317 23.7206 33.0157 23.8658 32.9974L24.3127 32.9413C27.7658 32.5073 33.2547 30.8716 37.3601 27.6903L37.6555 27.4613L37.6973 27.0902C38.4937 20.0131 37.747 8.71601 35.1192 2.06143ZM11.6642 18.3993C8.87259 18.6481 6.54359 16.3208 6.79221 13.531C6.98287 11.3925 8.70598 9.67028 10.846 9.47955C13.6376 9.23079 15.9666 11.5581 15.718 14.3479C15.5273 16.4864 13.8041 18.2086 11.6642 18.3993ZM27.1543 18.3993C24.3627 18.6481 22.0337 16.3208 22.2823 13.531C22.473 11.3925 24.1961 9.67028 26.3361 9.47955C29.1276 9.23079 31.4567 11.5581 31.2081 14.3479C31.0174 16.4864 29.2943 18.2086 27.1543 18.3993Z" fill="#2239FF"/>
+              </svg>
+    
+              <span class="text">Server in Discord</span>
+              <span class="call-to-action">open</span>
+            </a>
+    
+            <a href="#">
+              <svg width="38" height="34" viewBox="0 0 38 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.671193 16.6402L9.42717 19.9082L12.8163 30.8075C13.0331 31.5056 13.8867 31.7636 14.4533 31.3004L19.334 27.3215C19.8456 26.9046 20.5744 26.8839 21.109 27.272L29.9121 33.6632C30.5182 34.1038 31.3769 33.7716 31.5289 33.0392L37.9776 2.01968C38.1435 1.21965 37.3575 0.552244 36.5957 0.846871L0.660933 14.7094C-0.225862 15.0514 -0.218135 16.3069 0.671193 16.6402ZM12.2701 18.1686L29.3825 7.62899C29.6901 7.44013 30.0065 7.85598 29.7424 8.10095L15.6197 21.2287C15.1232 21.6908 14.803 22.3092 14.7123 22.9804L14.2313 26.5455C14.1675 27.0216 13.4989 27.0688 13.3675 26.6081L11.5173 20.1069C11.3054 19.3654 11.6142 18.5734 12.2701 18.1686Z" fill="#2239FF"/>
+              </svg>
+    
+              <span class="text">Chat in Telegram</span>
+              <span class="call-to-action">telegram</span>
+            </a>
+          </div>
+        </div>
+        <div class="contacts-decorator"></div>
+      </section>
   </body>
 </html>
