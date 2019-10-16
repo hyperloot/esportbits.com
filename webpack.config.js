@@ -1,42 +1,11 @@
 const path = require('path');
-const fs = require('fs');
 // const webpack = require('webpack');
-const fm = require('front-matter');
-const marked = require('marked');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const moment = require('moment');
 
 const IS_PROD = process.env.NODE_ENV === 'production';
-
-// POST GENERATION SECTION
-const posts = fs.readdirSync('./posts/');
-const allTagsList = posts
-  .map(post => ({
-    ...fm(fs.readFileSync(`./posts/${post}`, 'utf8')).attributes.tags,
-  }))
-  .map(tag => tag[0]);
-const uniqueTags = [...new Set(allTagsList)];
-const postsData = posts
-  .map(post => ({
-    ...fm(fs.readFileSync(`./posts/${post}`, 'utf8')),
-    filename: post.split('.')[0],
-    template: 'post',
-    lang: 'en',
-  }))
-  .map(post => ({
-    ...post,
-    content: marked(post.body),
-    short: marked(post.body.split('\n', 3).join('\n')),
-  }))
-  .sort((a, b) => {
-    const dateA = moment(a.attributes.date, 'D-M-Y');
-    const dateB = moment(b.attributes.date, 'D-M-Y');
-
-    return dateA.diff(dateB);
-  });
 
 // CONFIG
 const config = {
@@ -108,8 +77,6 @@ const config = {
       templateParameters: {
         lang: 'en',
         template: 'about',
-        postsData,
-        uniqueTags,
       },
     }),
     new HtmlWebpackPlugin({
@@ -118,8 +85,6 @@ const config = {
       templateParameters: {
         lang: 'en',
         template: 'token',
-        postsData,
-        uniqueTags,
       },
     }),
     new HtmlWebpackPlugin({
@@ -128,25 +93,8 @@ const config = {
       templateParameters: {
         lang: 'en',
         template: 'solutions',
-        postsData,
-        uniqueTags,
       },
     }),
-    new HtmlWebpackPlugin({
-      filename: 'posts/index.html',
-      template: 'src/posts.ejs',
-      templateParameters: {
-        lang: 'en',
-        template: 'posts',
-        postsData,
-        uniqueTags,
-      },
-    }),
-    ...postsData.map(post => new HtmlWebpackPlugin({
-      filename: `posts/${post.filename}/index.html`,
-      template: 'src/post.ejs',
-      templateParameters: post,
-    })),
   ],
 };
 
