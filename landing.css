@@ -1,8 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap);.wrapper {
-  width: calc(100vw - 10rem);
-  margin-left: 10rem;
-}
-
 *, *::before, *::after {
   box-sizing: border-box;
   transition-property: none;
@@ -78,7 +73,7 @@ a, path {
   position: absolute;
   width: 100%;
   height: 50%;
-  background-image: url(/dots.svg?79ee8eb0b0426255df94c32236ae00a4);
+  background-image: url('./landing-assets/dots.svg');
   background-position: top left;
   background-repeat: no-repeat;
   z-index: 2;
@@ -133,8 +128,8 @@ a, path {
 }
 
 .hero .content {
-  min-height: 70vh;
-  background-image: url(/hero-section-bg.jpg?d6f72c43bd2e9396b51ec199191faa54);
+  min-height: 80vh;
+  background-image: url('./landing-assets/hero-section-bg.jpg');
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -163,7 +158,7 @@ a, path {
 .content-card_header_card {
   position: relative;
   top: -30px;
-  margin-top: 200px;
+  margin-top: 70px;
 }
 
 .content-card__content {
@@ -420,7 +415,8 @@ a, path {
 }
 
 .project .project-description .dots.dots_align_left {
-  background-image: url(/dots.svg?79ee8eb0b0426255df94c32236ae00a4);
+  background-image: url('./landing-assets/dots.svg');
+  background-size: contain;
 }
 
 .project .project-pictures {
@@ -459,7 +455,7 @@ a, path {
 }
 
 .project .project-description .dots.dots_align_right {
-  background-image: url(/dots-left.png?3e7d21fef045866264b91abddd19731b);
+  background-image: url('./landing-assets/dots-right.png');
   transform: scale(-1, 1);
 }
 
@@ -534,7 +530,7 @@ a, path {
   width: 67.5vw;
   right: 0;
   bottom: 0;
-  background-image: url(/dots-left.png?3e7d21fef045866264b91abddd19731b);
+  background-image: url('./landing-assets/dots-left.png');
   background-repeat: no-repeat;
   position: absolute;
   transform: scale(-1, -1);
@@ -554,7 +550,7 @@ a, path {
   position: absolute;
   right: 0;
   top: 0;
-  /* background-image: url('./landing-assets/contacts-section-bg.jpg'); */
+  background-image: url('./landing-assets/contacts-section-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -606,19 +602,6 @@ a, path {
   position: absolute;
   top: 2px;
   right: 14px;
-}
-
-.contact_us_mobile {
-  display: none;
-}
-
-@media(max-width: 1400px) {
-  h1, h2, .contacts-title {
-    font-size: 36px;
-  }
-  .content-card_header_card {
-    margin-top: 70px;
-  }
 }
 
 @media(max-width: 768px) {
@@ -690,7 +673,7 @@ a, path {
     position: absolute;
     width: 80%;
     height: 40%;
-    background-image: url(/hero-section-bg.jpg?d6f72c43bd2e9396b51ec199191faa54);
+    background-image: url(./landing-assets/hero-section-bg.jpg);
     background-position: top right;
     right: 0;
     background-repeat: no-repeat;
@@ -752,25 +735,7 @@ a, path {
 }
 
 @media(max-width: 480px) {
-  .project .project-description .card .number {
-    font-size: 100px;
-  }
-  .hero .header .lang-controls {
-    font-size: 14px;
-  }
-  .hero .content::before{
-    width: 90%;
-    height: 40%;
-  }
-  .content-card_header_card {
-    margin-top: 190px;
-  }
-  .hero .header {
-    padding: 40px 0;
-  }
-  .hero {
-    min-height: 70vh;
-  }
+  
   .hero .header .menu {
     display: none;
   }
@@ -786,12 +751,8 @@ a, path {
   .contacts-links>a .text, .contacts-links>a .call-to-action {
     display: none;
   }
-  .contacts-links>a {
-    height: 50px;
-  }
   .contacts-links>a svg {
     margin-right: 0;
-    width: 24px;
   }
   .contacts-info {
     max-width: 90vw;
@@ -818,104 +779,11 @@ a, path {
     background-size: contain;
   }
   .answer.contact_us {
-    display: none;
-  }
-  .contact_us_mobile {
-    display: block;
-    left: -35px;
-    display: block;
-    left: -35px;
-    top: auto;
-    bottom: 0;
+    left: -24px;
+    bottom: -520px;
     z-index: 4;
   }
-  .answer.contact_us_mobile:before, .answer.contact_us_mobile:after {
+  .answer.contact_us:before, .answer.contact_us:after {
     display: none;
   }
-  .solution-items .item {
-    padding: 12px;
-  }
-  .project .project-pictures.lootmart-pictures img {
-    left: -6vw;
-    width: 100vw;
-  }
-  .project .project-pictures.pickgg-pictures img {
-    width: 100vw;
-  }
-  .project .project-pictures {
-    width: 90vw;
-  }
-  .solution-items {
-    width: 100%;
-  }
-  html {
-    
-    overflow-x: scroll;
-  }
-  body {
-    overflow: hidden;
-  }
-  .solution-items .item .features li {
-    position: relative;
-    padding-left: 24px;
-  }
-  
-  .solution-items .item .features li:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 12px;
-    height: 2px;
-    margin-right: 24px;
-    background-color: var(--base-color);
-  }
-  .projects h2 {
-    width: 150px;
-    margin-left: 36px;
-  }
-  .projects .lootmart .projects-title {
-    top: 50px;
-  }
-}.container {
-  margin: 0 auto;
 }
-
-.container_size_default {
-  width: 90vw;
-}
-
-.container_flex {
-  display: flex;
-  margin: 0 auto;
-}
-
-.container_flex_align_center {
-  align-items: center;
-}
-
-.container_flex_direction_column {
-  direction: column;
-}
-
-.container_flex_justify_between {
-  justify-content: space-between;
-}:root {
-  --base-color: #FFF;
-  --link-color: #2239FF;
-  --accent-color: #F23642;
-  --divider-color: #282828;
-  --background-color: #252e37;
-
-  --secondary-dark: #171717;
-  --secondary-grey: #F3F6FC;
-
-  --default-font: 'Montserrat', sans-serif;
-
-  --font-weight-regular: 400;
-  --font-weight-medium: 500;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 700;
-  --font-weight-black: 900;
-}
-
-/***** Common styles *****/
